@@ -1,0 +1,207 @@
+================================================================================
+MATRICES IN MOTION: OFFICIAL TELEPROMPTER VOICE-OVER SCRIPT
+Linear Algebra and Calculus (M3) — Internal Assessment
+Student: Devesh Gupta | Newton School of Technology
+Video File: final_video.mp4 (Total Duration: 4 minutes 20 seconds / 259.5s)
+================================================================================
+
+HOW TO USE THIS SCRIPT:
+1. Open "final_video.mp4" in your media player (QuickTime, VLC, or Windows Media Player).
+2. Plug in headphones so the video sound does not echo into your microphone.
+3. Open your audio recorder (Voice Memos on iPhone/Mac, Audacity, or OBS).
+4. Hit RECORD on your microphone, then press PLAY on the video.
+5. Speak when the video scrubber hits the timestamp shown in the left column.
+6. Wherever you see [PAUSE ...], take a breath and stay silent. The pauses are timed
+   so that you don't talk over the animations and formula transitions.
+
+Pronunciation Guide:
+- e₁  = "e-one"
+- e₂  = "e-two"
+- v   = "vector v"
+- u   = "vector u"
+- det = "determinant"
+- M_T = "M sub T"
+
+================================================================================
+SCENE 1: CINEMATIC HOOK & TITLE REVEAL (00:00 - 00:24)
+================================================================================
+
+[00:00] (Dark coordinate plane, axes, and grid lines draw smoothly)
+"When we first encounter a matrix in linear algebra, we usually see a static grid of numbers... rows, columns, and algebraic rules to memorize."
+
+[00:06] (Basis vectors e₁ and e₂ and the unit square appear in yellow and cyan)
+"But geometrically, a matrix is alive. It is an engine of transformation."
+[PAUSE 1.5s - watch the yellow basis vectors appear]
+
+[00:11] (The grid suddenly stretches, shears, and rotates dramatically)
+"Every matrix takes the infinite coordinate plane and stretches it, slants it, rotates it, or squashes it."
+[PAUSE 2s - watch the grid rotate and scale down]
+
+[00:18] (Visual chaos clears; Title appears: "MATRICES IN MOTION: How Matrices Transform Space")
+"Today, we explore Matrices in Motion—and discover that the entire secret of any two-by-two matrix is hidden in just two special vectors."
+[PAUSE 2.5s - title fades out into black]
+
+
+================================================================================
+SCENE 2: THE BASIC IDEA OF A MATRIX (00:24 - 00:54)
+================================================================================
+
+[00:24] (Title: "A Matrix Is a Transformation Machine"; vector [x, y] enters box A, output exits)
+"Let's start from first principles. A matrix acts like a transformation machine: you feed in a vector, the matrix transforms it, and a new vector comes out."
+[PAUSE 2s - machine box fades out]
+
+[00:34] (Plane appears on left; e₁ = (1, 0) and e₂ = (0, 1) glow in bright yellow)
+"To understand where any vector goes, look at the standard basis: e₁, pointing one unit along the x-axis, and e₂, one unit along the y-axis."
+[PAUSE 1.5s]
+
+[00:41] (Matrix A = [[2, 1], [1, 3]] appears; Column 1 [2, 1] glows green as e₁ moves to (2, 1))
+"When matrix A acts on e₁, it extracts the FIRST column: (2, 1)."
+[PAUSE 1.5s - watch green arrow land at (2, 1)]
+
+[00:46] (Column 2 [1, 3] glows orange as e₂ moves to (1, 3))
+"When it acts on e₂, it extracts the SECOND column: (1, 3)."
+[PAUSE 1.5s - watch orange arrow land at (1, 3)]
+
+[00:50] (Takeaway box: "COLUMN 1 ➔ Image of e₁ | COLUMN 2 ➔ Image of e₂")
+"This is our central takeaway: the columns of a matrix tell you exactly where the basis vectors land."
+[PAUSE 2.5s - hold until screen clears]
+
+
+================================================================================
+SCENE 3: HOW THE WHOLE PLANE FOLLOWS (00:54 - 01:34)
+================================================================================
+
+[00:54] (Vector v = (3, 2) is shown as 3 steps along e₁ plus 2 steps along e₂)
+"Why is tracking just e₁ and e₂ so powerful? Because EVERY vector in the plane is a linear combination of these two."
+[PAUSE 1s]
+
+[01:03] (Formulas appear: v = x e₁ + y e₂ and Av = x(Ae₁) + y(Ae₂))
+"A vector v = (x, y) is simply x copies of e₁, plus y copies of e₂."
+[PAUSE 1s]
+
+[01:10] (Formula glows in cyan)
+"Because matrix multiplication is linear, A times v equals x times Ae₁, plus y times Ae₂. If we know where the basis lands, the whole plane must follow!"
+[PAUSE 2s - decomposition clears]
+
+[01:18] (Step 1: e₁ transforms to (2, 0); Step 2: e₂ transforms to (1, 1))
+"Watch the sequence: first, e₁ transforms to (2, 0). Next, e₂ transforms to (1, 1)."
+[PAUSE 1.5s]
+
+[01:25] (Step 3: Vector v moves to (5.5, 1.5); Step 4: Unit square becomes parallelogram)
+"Any arbitrary vector v follows automatically, and the unit square becomes a parallelogram."
+[PAUSE 1s]
+
+[01:29] (Step 5: The entire coordinate grid smoothly bends and transforms)
+"Finally, the entire grid deforms. Notice that grid lines remain parallel and evenly spaced—the plane reshapes itself in complete harmony."
+[PAUSE 3s - let the grid finish stretching and fade out]
+
+
+================================================================================
+SCENE 4: THE TRANSFORMATION GALLERY (01:34 - 02:39)
+================================================================================
+
+[01:34] (Title: "TRANSFORMATION GALLERY: How Different Matrices Reshape Space")
+"Now let's explore the core transformations taught in Lecture Sheet 10."
+[PAUSE 1.5s]
+
+[01:40] (Panel A: SHEAR — Matrix S = [[1, 0], [1, 1]])
+"First: A SHEAR. Look at column two: it's (0, 1)—so e₂ does not move at all! But column one moves to (1, 1). The square slants into a parallelogram under the rule: (x, y) maps to (x, x plus y)."
+[PAUSE 2.5s - watch the grid shear and settle]
+
+[01:53] (Panel B: ROTATION — Matrix R = [[0, 1], [-1, 0]])
+"Second: A CLOCKWISE QUARTER-TURN. Matrix R rotates the entire plane by 90 degrees. e₁ lands down at (0, -1), and e₂ lands right at (1, 0). Angles and lengths stay preserved; applying R four times brings us right back to where we started."
+[PAUSE 2.5s - watch the 90-degree turn complete]
+
+[02:06] (Panel C: STRETCH — Matrix A = [[2, 0], [0, 1]])
+"Third: A HORIZONTAL STRETCH. Matrix [[2, 0], [0, 1]] doubles horizontal spacing while leaving the vertical axis untouched. The square expands into a rectangle of twice the width."
+[PAUSE 2.5s - watch the grid spacing widen]
+
+[02:18] (Panel D: REFLECTION — Matrix A = [[1, 0], [0, -1]])
+"Fourth: REFLECTION. Here, e₁ stays locked on the x-axis, while e₂ flips downwards to (0, -1). The entire plane reflects across the horizontal axis, reversing its spatial orientation."
+[PAUSE 2.5s - watch the axis flip]
+
+[02:29] (Panel E: COLLAPSE — Matrix C = [[1, 1], [1, 1]])
+"And finally, the most dramatic case: COLLAPSE! In matrix C, both columns are identical: (1, 1). Both basis vectors land on the exact same spot! Two dimensions squash into a single line, y = x. Notice vector (1, -1): it collapses straight to the origin—a non-zero vector in the NULL SPACE!"
+[PAUSE 3.5s - watch the 2D grid flatten completely into 1D]
+
+
+================================================================================
+SCENE 5: THE TRANSFORMED UNIT SQUARE & DETERMINANTS (02:39 - 03:07)
+================================================================================
+
+[02:39] (Unit square with corners 0, e₁, e₂, e₁+e₂; Original Area = 1)
+"What does the transformed unit square tell us about space? Originally, its corners are 0, e₁, e₂, and e₁ plus e₂, enclosing an area of exactly 1."
+[PAUSE 1.5s]
+
+[02:47] (Stretch matrix applied; area expands to 2; det(A) = 2)
+"Under our stretch matrix, the corners become 0, Ae₁, Ae₂, and their sum. The new area is 2. That area scaling factor is precisely what we call the DETERMINANT!"
+[PAUSE 1.5s]
+
+[02:56] (Collapse matrix applied; area flattens to 0; det(C) = 0)
+"For our collapse matrix, determinant C equals 1 times 1 minus 1 times 1, which is ZERO. An area of zero means two-dimensional space was squashed into a line. The determinant literally measures area scaling!"
+[PAUSE 2.5s - screen clears]
+
+
+================================================================================
+SCENE 6: WHAT MAKES A TRANSFORMATION LINEAR? (03:07 - 03:35)
+================================================================================
+
+[03:07] (Title: "What Makes a Transformation Linear?"; Axioms appear)
+"Not every transformation can be represented by a matrix. Only LINEAR transformations qualify."
+[PAUSE 1s]
+
+[03:13] (Axiom 1: T(u + v) = T(u) + T(v); Axiom 2: T(cu) = c T(u))
+"A transformation is linear if it satisfies two axioms: Additivity—transforming a sum equals the sum of the transformations; and Homogeneity—scaling before transforming equals scaling after."
+[PAUSE 1.5s]
+
+[03:22] (Left and right planes verify vector addition: T(u+v) = T(u) + T(v) = (2, 0) ✓)
+"Here, vectors u and v add to (1, 1). After transformation, their images add to (2, 0)—the exact same point!"
+[PAUSE 1.5s]
+
+[03:28] (Geometric properties box: Origin fixed, straight lines stay straight)
+"Geometrically, linearity means two vital things: the origin NEVER moves, and straight grid lines NEVER bend into curves."
+[PAUSE 2.5s - screen clears]
+
+
+================================================================================
+SCENE 7: BUILD A MATRIX FROM A TRANSFORMATION (03:35 - 04:00)
+================================================================================
+
+[03:35] (Rule: T(x, y) = (x + y, x - y) from Lecture Sheet 10 Page 11)
+"Now, let's reverse the question from Lecture Sheet 10: if you are given an abstract rule like T(x, y) = (x + y, x - y), how do you find its matrix?"
+[PAUSE 1s]
+
+[03:42] (Step 1: T(e₁) = T(1, 0) = (1, 1) ➔ Column 1)
+"Apply T to the basis! Feed in e₁: (1 + 0, 1 - 0) gives (1, 1). That's our FIRST column."
+[PAUSE 1s]
+
+[03:48] (Step 2: T(e₂) = T(0, 1) = (1, -1) ➔ Column 2)
+"Feed in e₂: (0 + 1, 0 - 1) gives (1, -1). That's our SECOND column."
+[PAUSE 1s]
+
+[03:53] (Matrix M_T = [[1, 1], [1, -1]] forms; takeaway banner glows)
+"Place them side by side: matrix M_T is complete. The algebraic formula and the matrix are two views of the exact same geometric action!"
+[PAUSE 2.5s - screen clears]
+
+
+================================================================================
+SCENE 8: SUMMARY & CLOSING CREDITS (04:00 - 04:20)
+================================================================================
+
+[04:00] (Transformed grid ripples in background; Five Takeaways appear)
+"To recap our five core insights: a matrix transforms space; its columns reveal where basis vectors land; linear combinations dictate how the plane follows; linearity preserves grid uniformity; and geometry explains matrix arithmetic."
+[PAUSE 2s]
+
+[04:09] (Quote appears: "MATHEMATICS IS MORE THAN NUMBERS. IT IS GEOMETRY IN MOTION.")
+"Next time you multiply a matrix, remember: mathematics is more than numbers. It is geometry in motion."
+[PAUSE 2s]
+
+[04:14] (High-clarity bordered credits card appears: Devesh Gupta, Newton School of Technology)
+"Thank you for watching."
+
+[04:16 - 04:20]
+[HOLD SILENCE FOR 4 SECONDS — let the academic credits card display clearly until video fades out]
+
+================================================================================
+END OF SCRIPT
+================================================================================
